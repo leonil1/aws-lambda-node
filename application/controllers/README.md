@@ -1,0 +1,1 @@
+- Recibir los datos de la peticion a la APi

@@ -1,0 +1,17 @@
+{
+
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "StartWarsInputModel",
+    "description": "Validacion de los datos Start Wars",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description": "Nombre de Start War",
+            "type": "string",
+            "default": "",
+            "pattern": "^[a-zA-Z0-9]+$"
+        }
+    },
+    "required":["name"]
+}
