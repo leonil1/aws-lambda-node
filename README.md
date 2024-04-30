@@ -21,7 +21,7 @@ This template does not include any kind of persistence (database). For more adva
 ### Deployment
 
 ```
-$ serverless deploy
+$ serverless:dev deploy
 ```
 
 After deploying, you should see output similar to:
@@ -86,7 +86,16 @@ It will add the `serverless-offline` plugin to `devDependencies` in `package.jso
 After installation, you can start local emulation with:
 
 ```
-serverless offline
+npm runserverless offline
 ```
 
 To learn more about the capabilities of `serverless-offline`, please refer to its [GitHub repository](https://github.com/dherault/serverless-offline).
+
+para credenciales de db crear un directorio con nombre config -> dev.json
+
+el scrip  de db esta en domain  usar mysql
+
+la ruta de empoit 
+"get": http://localhost:3000/api/v1/startwars
+
+"post": http://localhost:3000/api/v1/startwar

@@ -15,20 +15,21 @@ provider:
 
 plugins:
   - serverless-offline
+  - serverless-openapi
 
 functions:
   getStartWars:
     handler: infraestructure\handlers\sartWars-handler.getStartWars
     events:
       - httpApi:
-          path: estarwars
+          path: api/v1/startwars
           method: get
   
   createStartWar:
     handler: infraestructure\handlers\sartWars-handler.createStartWar
     events:
       - httpApi:
-          path: estarwar
+          path: api/v1/startwar
           method: post
           request:
             schema:

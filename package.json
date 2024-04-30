@@ -14,6 +14,7 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "serverless-offline": "^13.4.0",
+    "serverless-openapi": "^1.1.2",
     "supertest": "^7.0.0"
   },
   "dependencies": {
